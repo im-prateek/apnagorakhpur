@@ -126,13 +126,13 @@ h2 span {
 }
 
 .introduction-container h2 {
-    color: #ff4a4ade;
+    color: #5A4BDA;
     width: 90vmin;
-    font-size: 2.5rem;
+    font-size: 6.7vmin;
 }
 
 .introduction-container p {
     color: rgb(107, 107, 107);
     line-height: 1.5;
-    font-size: 1.2rem;
+    font-size: 4vmin;
 }
