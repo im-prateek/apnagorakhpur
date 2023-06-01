@@ -151,9 +151,47 @@ h2 span {
 
 
 }
-
+.places-container{
+    margin-top: 5rem;
+}
+.popular-attractions h2{
+    font-size: 5.5vmin;
+    margin: 2rem 0 1rem 0;
+    font-weight: 600;
+    text-align: center;
+    white-space: nowrap;
+}
 .popular-attractions .places-wrapper img {
     width: 50px;
     border-radius: 0.4rem;
     box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
 }
+
+.heading-with-lines {
+    position: relative;
+    text-align: center;
+    margin: 1rem 0 2rem 0;
+    color: #EB427E;
+    font-weight: 500;
+  }
+  
+  .heading-with-lines:before,
+  .heading-with-lines:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 20%;
+    height: 3px;
+    background-color: #eeeeee;
+    border-radius: 5rem;
+  }
+  
+  .heading-with-lines:before {
+    left: 2rem;
+    
+  }
+  
+  .heading-with-lines:after {
+    right: 2rem;
+   
+  }
