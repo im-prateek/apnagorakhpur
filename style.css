@@ -73,7 +73,7 @@
 
 .slideshow img {
     width: 100%;
-    border-radius: 0 0 0.6rem 0.6rem;
+    border-radius: 0 0 1.3rem 1.3rem;
 }
 
 .welcome-message-container {
@@ -110,6 +110,7 @@ h2 span {
     margin: 0 0.1rem;
     text-align: center;
     color: rgb(107, 107, 107);
+    white-space: nowrap;
 }
 
 .welcome-message img {
@@ -120,7 +121,7 @@ h2 span {
 }
 
 .introduction-container {
-    margin-top: 4rem;
+    margin-top: 5rem;
     flex-direction: column;
     gap: 1rem;
 }
@@ -167,31 +168,31 @@ h2 span {
     box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
 }
 
-.heading-with-lines {
-    position: relative;
-    text-align: center;
-    margin: 1rem 0 2rem 0;
-    color: #EB427E;
-    font-weight: 500;
+.must-visit-places-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
   }
   
-  .heading-with-lines:before,
-  .heading-with-lines:after {
-    content: "";
-    position: absolute;
-    top: 50%;
-    width: 20%;
-    height: 3px;
-    background-color: #eeeeee;
+  .line {
+    flex-grow: 1;
+    height: 2px;
+    background-color: #E4E7EA;
     border-radius: 5rem;
   }
   
-  .heading-with-lines:before {
-    left: 2rem;
-    
+  .heading-with-lines {
+    margin: 0 10px;
   }
   
-  .heading-with-lines:after {
-    right: 2rem;
-   
+  .must-visit-places {
+    color: #EB427E;
+    font-weight: 500;
+    font-size: 4vmin;
+    position: relative;
+    z-index: 1;
+  }
+  .must-visit-places-box{
+    margin-bottom: 2rem;
   }
