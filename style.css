@@ -40,17 +40,28 @@
 .nav-bar .right {
     gap: 1rem;
 }
+.left img{
+    width: 4.5rem;
+}
 
 .right .language-button {
     background-color: #E2FBFF;
     gap: 0.5rem;
-    padding: 0.5rem;
+    padding: 0.6rem 0.5rem;
     border-radius: 0.4rem;
 }
 
 .right .language-button svg {
-    height: 1.15rem;
+    height: 0.9rem;
     width: 1rem;
+}
+.right p{
+    font-size: 0.65rem;
+    font-weight: 410;
+}
+.right img{
+    width: 0.8rem;
+    border-radius: 2px;
 }
 
 .nav-container {
@@ -58,12 +69,14 @@
 }
 
 .nav-bar .right .login-button {
-    padding: 0.5rem 1.3rem;
+    padding: 0.5rem 1.3rem; 
     border-radius: 0.4rem;
-    border: 1px solid #ff4a4a;
+    border: 1px solid #000000;
     background-color: transparent;
 }
-
+.nav-bar .right .login-button p{
+    color: #EC0332;
+}
 .under_navbar_line{
     background: #1d1d1d7d;
     height: 1px;
@@ -202,4 +215,3 @@ h2 span {
     margin-bottom: 2rem;
   }
 
-  
