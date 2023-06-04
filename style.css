@@ -64,16 +64,21 @@
     background-color: transparent;
 }
 
+.under_navbar_line{
+    background: #1d1d1d7d;
+    height: 1px;
+}
 /* ====================sildeshow===================== */
 
 
 .slideshow {
-    margin: 1rem 0;
+    /* margin: 1rem 0; */
+    padding: 0.7rem;
 }
 
 .slideshow img {
     width: 100%;
-    border-radius: 0 0 1.3rem 1.3rem;
+    border-radius: 1.1rem;
 }
 
 .welcome-message-container {
@@ -196,3 +201,5 @@ h2 span {
   .must-visit-places-box{
     margin-bottom: 2rem;
   }
+
+  
