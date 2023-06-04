@@ -56,11 +56,11 @@
     width: 1rem;
 }
 .right p{
-    font-size: 0.65rem;
+    font-size: 0.8rem;
     font-weight: 410;
 }
 .right img{
-    width: 0.8rem;
+    width: 0.85rem;
     border-radius: 2px;
 }
 
@@ -69,13 +69,14 @@
 }
 
 .nav-bar .right .login-button {
-    padding: 0.5rem 1.3rem; 
+    padding: 0.44rem 1.2rem; 
     border-radius: 0.4rem;
     border: 1px solid #000000;
     background-color: transparent;
 }
 .nav-bar .right .login-button p{
     color: #EC0332;
+    font-size: 0.85rem;
 }
 .under_navbar_line{
     background: #1d1d1d7d;
