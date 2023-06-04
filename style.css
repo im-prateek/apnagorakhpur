@@ -40,8 +40,11 @@
 .nav-bar .right {
     gap: 1rem;
 }
+.left i{
+    font-size: 1.4rem;
+}
 .left img{
-    width: 4.5rem;
+    width: 15vw;
 }
 
 .right .language-button {
@@ -60,7 +63,7 @@
     font-weight: 410;
 }
 .right img{
-    width: 0.85rem;
+    width: 01rem;
     border-radius: 2px;
 }
 
