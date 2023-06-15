@@ -244,6 +244,7 @@
     font-size: 4vmin;
     position: relative;
     z-index: 1;
+    white-space: nowrap;
 }
 
 /* -----------line wrapper below heading------------- */
